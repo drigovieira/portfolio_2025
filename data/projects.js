@@ -1,0 +1,75 @@
+import {getTechIcon} from '@/utils/techIcons';
+
+export const projects = [
+    {
+        num: '01',
+        category: 'Data Sience',
+        title: 'Análise RFM',
+        alt: '',
+        description: 'Projeto de análise de dados para segmentação de clientes de e-commerce utilizando métricas RFM.',
+        stack: [
+            {name: 'Python', icon: getTechIcon('Python')},
+            {name: 'Pandas', icon: getTechIcon('Pandas')},
+            {name: 'Scikit-learn', icon: getTechIcon('Scikit-learn')},
+            {name: 'Plotly', icon: getTechIcon('Plotly')},
+            {name: 'Jupyter', icon: getTechIcon('Jupyter')},
+            {name: 'Google Colab', icon: getTechIcon('Google Colab')},
+
+        ],
+        image: '/assets/work/rfm.png',
+        live: '',
+        github: 'https://github.com/drigovieira/analise-rfm',
+    },
+    {
+        num: '02',
+        category: 'fullstack',
+        title: 'Help.me',
+        alt: '',
+        description: 'Projeto de sistema de abertura de tickets para atendimento interno e entre setores e empresas.',
+        stack: [
+            {name: 'Laravel', icon: getTechIcon('Laravel')},
+            {name: 'JavaScript', icon: getTechIcon('JavaScript')},
+            {name: 'HTML', icon: getTechIcon('HTML')},
+            {name: 'CSS', icon: getTechIcon('CSS')},
+            {name: 'Bootstrap', icon: getTechIcon('Bootstrap')},
+            {name: 'MySql', icon: getTechIcon('MySql')},
+        ],
+        image: '/assets/work/helpmeimg.png',
+        live: '',
+        github: '',
+    },
+    {
+        num: '03',
+        category: 'fullstack',
+        title: 'Site Lev',
+        alt: '',
+        description: 'Site institucional desenvolvido para a corretora Lev durante minha atuação na Objective.',
+        stack: [
+            {name: 'WordPress', icon: getTechIcon('WordPress')},
+            {name: 'JavaScript', icon: getTechIcon('JavaScript')},
+            {name: 'HTML', icon: getTechIcon('HTML')},
+            {name: 'Tailwind CSS', icon: getTechIcon('Tailwind CSS')},
+        ],
+        image: '/assets/work/lev.png',
+        live: 'https://www.lev.com.vc/',
+        github: '',
+    },
+    {
+        num: '04',
+        category: 'fullstack',
+        title: 'Site Jovem Pan',
+        alt: '',
+        description: 'Portal de notícias Jovem Pan, atuei em melhorias durante minha atuação na Objective.',
+        stack: [
+            {name: 'PHP', icon: getTechIcon('PHP')},
+            {name: 'WordPress', icon: getTechIcon('WordPress')},
+            {name: 'Laravel', icon: getTechIcon('Laravel')},
+            {name: 'JavaScript', icon: getTechIcon('JavaScript')},
+            {name: 'HTML', icon: getTechIcon('HTML')},
+            {name: 'CSS', icon: getTechIcon('CSS')}
+        ],
+        image: '/assets/work/jp.png',
+        live: 'https://jovempan.com.br/',
+        github: '',
+    },
+]

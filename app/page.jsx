@@ -24,7 +24,7 @@ const Home = () => {
               {/*(Pandas, NumPy, Scikit-learn, PySpark, Matplotlib, Seaborn), SQL, Power BI e Excel.*/}
               {/*Minha formação em Banco de Dados complementa minhas habilidades analíticas*/}
               {/*e meu entusiasmo por Machine Learning.*/}
-              Especialista em Ciência de Dados, com domínio em Python (Pandas, NumPy, Scikit-learn, Spark, PySpark, Matplotlib e Seaborn), SQL, Power BI e Excel. Graduando em Banco de Dados e foco em Big Data, Redes Neurais e Deep Learning.
+              Especialista em Ciência de Dados, com domínio em Python (Pandas, NumPy, Scikit-learn, PySpark, Matplotlib e Seaborn), SQL, Power BI e Excel. Graduando em Banco de Dados e foco em Big Data, Redes Neurais e Deep Learning.
             </p>
             {/* Botão e Redes Sociais*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">

@@ -6,29 +6,34 @@ import Link from 'next/link';
 const services = [
   {
     num: "01",
-    title: "Data Analysis",
-    desc: "Interprete dados brutos, crie visualizações claras e gere relatórios estratégicos utilizando ferramentas como Python, Pandas e SQL.",
-    href: ""
+    title: "Análise de Dados",
+    desc: "Interprete dados brutos, crie visualizações claras e gere relatórios estratégicos utilizando ferramentas como Python, Excel, PowerBI e SQL.",
+    href: "https://w.app/sophiondatatech",
   },
   {
     num: "02",
-    title: "Data Science",
+    title: "Ciência de Dados",
     desc: "Extraia insights acionáveis a partir de grandes volumes de dados, aplicando estatística, programação e modelagem preditiva.",
-    href: ""
+    href: "https://w.app/sophiondatatech",
   },
   {
     num: "03",
-    title: "Cloud & Big Data",
-    desc: "Acelere o ciclo de vida de dados com ferramentas de nuvem como GCP e processe dados em escala com eficiência.",
-    href: ""
+    title: "Desenvolvimento Web",
+    desc: "Crie aplicações modernas e responsivas com tecnologias como HTML, CSS, JavaScript, React e frameworks back-end como Laravel.",
+    href: "https://w.app/sophiondatatech",
   },
   {
     num: "04",
-    title: "Web Development",
-    desc: "Crie aplicações modernas e responsivas com tecnologias como HTML, CSS, JavaScript, React e frameworks back-end como Laravel.",
-    href: ""
+    title: "Gerenciamento de Projetos",
+    desc: "Gestão de projetos sob medida - do planejamento à entrega final, garantindo prazos, qualidade e resultados.",
+    href: "https://w.app/sophiondatatech",
   },
-
+  // {
+  //   num: "",
+  //   title: "Cloud & Big Data",
+  //   desc: "Acelere o ciclo de vida de dados com ferramentas de nuvem como GCP e processe dados em escala com eficiência.",
+  //   href: ""
+  // },
 ]
 
 import { motion } from "framer-motion";
@@ -54,7 +59,7 @@ const Services = () => {
                 {/*top*/}
                 <div className="w-full flex justify-between items-center">
                   <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
-                  <Link href={service.href} className="w-[70px] h-[70px] flex justify-center items-center rounded-full bg-accent text-white transition-all duration-500 group-hover:bg-accent-hover bg-white group-hover:bg-accent transition-all duration-500 hover:-rotate-45">
+                  <Link href={service.href} target='_blank' className="w-[70px] h-[70px] flex justify-center items-center rounded-full bg-accent text-white transition-all duration-500 group-hover:bg-accent-hover bg-white group-hover:bg-accent transition-all duration-500 hover:-rotate-45">
                     <BsArrowDownRight className="text-primary text-3xl"/>
                   </Link>
                 </div>
